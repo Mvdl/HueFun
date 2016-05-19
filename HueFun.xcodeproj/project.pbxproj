@@ -27,13 +27,13 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		7B68C37B1CEC7A4E00075A77 /* LightMyHue.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LightMyHue.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7B68C37B1CEC7A4E00075A77 /* HueFun.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HueFun.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7B68C37E1CEC7A4E00075A77 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7B68C3831CEC7A4E00075A77 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		7B68C3851CEC7A4E00075A77 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7B68C3881CEC7A4E00075A77 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7B68C38A1CEC7A4E00075A77 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		7B68C3901CEC7A7000075A77 /* LightMyHue-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "LightMyHue-Bridging-Header.h"; sourceTree = SOURCE_ROOT; };
+		7B68C3901CEC7A7000075A77 /* HueFun-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "HueFun-Bridging-Header.h"; sourceTree = SOURCE_ROOT; };
 		7B68C3961CEC7C3500075A77 /* HueSDK_iOS.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = HueSDK_iOS.framework; sourceTree = "<group>"; };
 		7B68C3991CEC7C5000075A77 /* DDAbstractDatabaseLogger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDAbstractDatabaseLogger.h; sourceTree = "<group>"; };
 		7B68C39A1CEC7C5000075A77 /* DDAbstractDatabaseLogger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDAbstractDatabaseLogger.m; sourceTree = "<group>"; };
@@ -72,7 +72,7 @@
 			isa = PBXGroup;
 			children = (
 				7B68C3B71CEC9A6800075A77 /* Default-568h@2x.png */,
-				7B68C37D1CEC7A4E00075A77 /* LightMyHue */,
+				7B68C37D1CEC7A4E00075A77 /* HueFun */,
 				7B68C37C1CEC7A4E00075A77 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -80,15 +80,15 @@
 		7B68C37C1CEC7A4E00075A77 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				7B68C37B1CEC7A4E00075A77 /* LightMyHue.app */,
+				7B68C37B1CEC7A4E00075A77 /* HueFun.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		7B68C37D1CEC7A4E00075A77 /* LightMyHue */ = {
+		7B68C37D1CEC7A4E00075A77 /* HueFun */ = {
 			isa = PBXGroup;
 			children = (
-				7B68C3901CEC7A7000075A77 /* LightMyHue-Bridging-Header.h */,
+				7B68C3901CEC7A7000075A77 /* HueFun-Bridging-Header.h */,
 				7B68C37E1CEC7A4E00075A77 /* AppDelegate.swift */,
 				7B68C3AF1CEC7C8300075A77 /* LMHControlLightsViewController.swift */,
 				7B68C3B11CEC7DBA00075A77 /* LMHLoadingViewController.swift */,
@@ -100,7 +100,7 @@
 				7B68C38A1CEC7A4E00075A77 /* Info.plist */,
 				7B68C3931CEC7A9D00075A77 /* Frameworks */,
 			);
-			path = LightMyHue;
+			path = HueFun;
 			sourceTree = "<group>";
 		};
 		7B68C3931CEC7A9D00075A77 /* Frameworks */ = {
@@ -145,9 +145,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		7B68C37A1CEC7A4E00075A77 /* LightMyHue */ = {
+		7B68C37A1CEC7A4E00075A77 /* HueFun */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 7B68C38D1CEC7A4E00075A77 /* Build configuration list for PBXNativeTarget "LightMyHue" */;
+			buildConfigurationList = 7B68C38D1CEC7A4E00075A77 /* Build configuration list for PBXNativeTarget "HueFun" */;
 			buildPhases = (
 				7B68C3771CEC7A4E00075A77 /* Sources */,
 				7B68C3781CEC7A4E00075A77 /* Frameworks */,
@@ -157,9 +157,9 @@
 			);
 			dependencies = (
 			);
-			name = LightMyHue;
-			productName = LightMyHue;
-			productReference = 7B68C37B1CEC7A4E00075A77 /* LightMyHue.app */;
+			name = HueFun;
+			productName = HueFun;
+			productReference = 7B68C37B1CEC7A4E00075A77 /* HueFun.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -178,7 +178,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 7B68C3761CEC7A4E00075A77 /* Build configuration list for PBXProject "LightMyHue" */;
+			buildConfigurationList = 7B68C3761CEC7A4E00075A77 /* Build configuration list for PBXProject "HueFun" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -191,7 +191,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				7B68C37A1CEC7A4E00075A77 /* LightMyHue */,
+				7B68C37A1CEC7A4E00075A77 /* HueFun */,
 			);
 		};
 /* End PBXProject section */
@@ -344,13 +344,13 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)",
 				);
-				INFOPLIST_FILE = LightMyHue/Info.plist;
+				INFOPLIST_FILE = HueFun/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = "-ObjC";
-				PRODUCT_BUNDLE_IDENTIFIER = com.mvdlinden.LightMyHue;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_OBJC_BRIDGING_HEADER = "LightMyHue-Bridging-Header.h";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mvdlinden.HueFun;
+				PRODUCT_NAME = HueFun;
+				SWIFT_OBJC_BRIDGING_HEADER = "HueFun-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
@@ -364,20 +364,20 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)",
 				);
-				INFOPLIST_FILE = LightMyHue/Info.plist;
+				INFOPLIST_FILE = HueFun/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = "-ObjC";
-				PRODUCT_BUNDLE_IDENTIFIER = com.mvdlinden.LightMyHue;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_OBJC_BRIDGING_HEADER = "LightMyHue-Bridging-Header.h";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mvdlinden.HueFun;
+				PRODUCT_NAME = HueFun;
+				SWIFT_OBJC_BRIDGING_HEADER = "HueFun-Bridging-Header.h";
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		7B68C3761CEC7A4E00075A77 /* Build configuration list for PBXProject "LightMyHue" */ = {
+		7B68C3761CEC7A4E00075A77 /* Build configuration list for PBXProject "HueFun" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				7B68C38B1CEC7A4E00075A77 /* Debug */,
@@ -386,13 +386,14 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		7B68C38D1CEC7A4E00075A77 /* Build configuration list for PBXNativeTarget "LightMyHue" */ = {
+		7B68C38D1CEC7A4E00075A77 /* Build configuration list for PBXNativeTarget "HueFun" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				7B68C38E1CEC7A4E00075A77 /* Debug */,
 				7B68C38F1CEC7A4E00075A77 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

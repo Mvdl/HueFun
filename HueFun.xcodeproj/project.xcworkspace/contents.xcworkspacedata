@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:LightMyHue.xcodeproj">
+      location = "self:/Users/matthijs/Code/Xcode/LightMyHue copy/HueFun.xcodeproj">
    </FileRef>
 </Workspace>
