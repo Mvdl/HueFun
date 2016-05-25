@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7B60C10D1CF43708002833E0 /* LightsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B60C10C1CF43708002833E0 /* LightsTableViewCell.swift */; };
 		7B68C37F1CEC7A4E00075A77 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B68C37E1CEC7A4E00075A77 /* AppDelegate.swift */; };
 		7B68C3841CEC7A4E00075A77 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7B68C3821CEC7A4E00075A77 /* Main.storyboard */; };
 		7B68C3861CEC7A4E00075A77 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7B68C3851CEC7A4E00075A77 /* Assets.xcassets */; };
@@ -28,6 +29,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		7B60C10C1CF43708002833E0 /* LightsTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LightsTableViewCell.swift; sourceTree = "<group>"; };
 		7B68C37B1CEC7A4E00075A77 /* HueFun.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HueFun.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7B68C37E1CEC7A4E00075A77 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7B68C3831CEC7A4E00075A77 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -157,6 +159,7 @@
 			isa = PBXGroup;
 			children = (
 				7B8D5DD01CEEFCD200D13D1F /* LightsTableViewController.swift */,
+				7B60C10C1CF43708002833E0 /* LightsTableViewCell.swift */,
 			);
 			name = HueFun;
 			sourceTree = "<group>";
@@ -244,6 +247,7 @@
 				7B68C3B41CEC7E4200075A77 /* LMHBridgePushLinkViewController.swift in Sources */,
 				7B68C3A81CEC7C5000075A77 /* DDAbstractDatabaseLogger.m in Sources */,
 				7B68C3AC1CEC7C5000075A77 /* DDTTYLogger.m in Sources */,
+				7B60C10D1CF43708002833E0 /* LightsTableViewCell.swift in Sources */,
 				7B68C3AA1CEC7C5000075A77 /* DDFileLogger.m in Sources */,
 				7B68C3B01CEC7C8300075A77 /* LMHControlLightsViewController.swift in Sources */,
 				7B68C3AD1CEC7C5000075A77 /* ContextFilterLogFormatter.m in Sources */,
