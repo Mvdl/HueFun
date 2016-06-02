@@ -25,6 +25,8 @@
 		7B68C3B41CEC7E4200075A77 /* LMHBridgePushLinkViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B68C3B31CEC7E4200075A77 /* LMHBridgePushLinkViewController.swift */; };
 		7B68C3B61CEC89DE00075A77 /* LMHBridgeSelectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B68C3B51CEC89DE00075A77 /* LMHBridgeSelectionViewController.swift */; };
 		7B68C3B81CEC9A6800075A77 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7B68C3B71CEC9A6800075A77 /* Default-568h@2x.png */; };
+		7B72DDA81CFDD34A000A20F8 /* GradientSlider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B72DDA71CFDD34A000A20F8 /* GradientSlider.swift */; };
+		7B72DDAA1CFF18B5000A20F8 /* OnOffTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B72DDA91CFF18B5000A20F8 /* OnOffTableViewCell.swift */; };
 		7B8D5DD11CEEFCD200D13D1F /* LightsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B8D5DD01CEEFCD200D13D1F /* LightsTableViewController.swift */; };
 /* End PBXBuildFile section */
 
@@ -57,6 +59,8 @@
 		7B68C3B31CEC7E4200075A77 /* LMHBridgePushLinkViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LMHBridgePushLinkViewController.swift; sourceTree = "<group>"; };
 		7B68C3B51CEC89DE00075A77 /* LMHBridgeSelectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LMHBridgeSelectionViewController.swift; sourceTree = "<group>"; };
 		7B68C3B71CEC9A6800075A77 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		7B72DDA71CFDD34A000A20F8 /* GradientSlider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GradientSlider.swift; sourceTree = "<group>"; };
+		7B72DDA91CFF18B5000A20F8 /* OnOffTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OnOffTableViewCell.swift; sourceTree = "<group>"; };
 		7B8D5DD01CEEFCD200D13D1F /* LightsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LightsTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -97,6 +101,7 @@
 				7B8D5DCF1CEEFCA800D13D1F /* HueFun */,
 				7B8D5DCE1CEEFC8600D13D1F /* LightMyHue */,
 				7B68C3821CEC7A4E00075A77 /* Main.storyboard */,
+				7B72DDA61CFDD193000A20F8 /* GradientSlider */,
 				7B68C3851CEC7A4E00075A77 /* Assets.xcassets */,
 				7B68C3871CEC7A4E00075A77 /* LaunchScreen.storyboard */,
 				7B68C38A1CEC7A4E00075A77 /* Info.plist */,
@@ -144,6 +149,14 @@
 			path = Extensions;
 			sourceTree = "<group>";
 		};
+		7B72DDA61CFDD193000A20F8 /* GradientSlider */ = {
+			isa = PBXGroup;
+			children = (
+				7B72DDA71CFDD34A000A20F8 /* GradientSlider.swift */,
+			);
+			name = GradientSlider;
+			sourceTree = "<group>";
+		};
 		7B8D5DCE1CEEFC8600D13D1F /* LightMyHue */ = {
 			isa = PBXGroup;
 			children = (
@@ -160,6 +173,7 @@
 			children = (
 				7B8D5DD01CEEFCD200D13D1F /* LightsTableViewController.swift */,
 				7B60C10C1CF43708002833E0 /* LightsTableViewCell.swift */,
+				7B72DDA91CFF18B5000A20F8 /* OnOffTableViewCell.swift */,
 			);
 			name = HueFun;
 			sourceTree = "<group>";
@@ -241,6 +255,7 @@
 				7B68C3A91CEC7C5000075A77 /* DDASLLogger.m in Sources */,
 				7B68C37F1CEC7A4E00075A77 /* AppDelegate.swift in Sources */,
 				7B68C3B21CEC7DBA00075A77 /* LMHLoadingViewController.swift in Sources */,
+				7B72DDA81CFDD34A000A20F8 /* GradientSlider.swift in Sources */,
 				7B8D5DD11CEEFCD200D13D1F /* LightsTableViewController.swift in Sources */,
 				7B68C3B61CEC89DE00075A77 /* LMHBridgeSelectionViewController.swift in Sources */,
 				7B68C3AE1CEC7C5000075A77 /* DispatchQueueLogFormatter.m in Sources */,
@@ -250,6 +265,7 @@
 				7B60C10D1CF43708002833E0 /* LightsTableViewCell.swift in Sources */,
 				7B68C3AA1CEC7C5000075A77 /* DDFileLogger.m in Sources */,
 				7B68C3B01CEC7C8300075A77 /* LMHControlLightsViewController.swift in Sources */,
+				7B72DDAA1CFF18B5000A20F8 /* OnOffTableViewCell.swift in Sources */,
 				7B68C3AD1CEC7C5000075A77 /* ContextFilterLogFormatter.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
