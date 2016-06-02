@@ -1,3 +1,3 @@
 # HueFun
 
-![Alt text](/relative/path/to/HueFun.png?raw=true "Screenshot")
+![Alt text](/HueFun.png?raw=true "Screenshot")
